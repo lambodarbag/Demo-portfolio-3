@@ -2,8 +2,150 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 html, body {
     width: 100%;
     height: 100%;
 }
+#main {
+    height: 100%;
+    width: 100%;
+}
+
+#nav {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    padding: 30px 0;
+    justify-content: space-around;
+}
+#nav-left {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+#nav-right {
+    width: 35%;
+    display: flex;
+    justify-content: space-between;
+}
+#nav h3 {
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: -1px;
+    cursor: pointer;
+}
+#nav h2 {
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: -1px;
+    cursor: pointer;
+}
+#nav h4 {
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: -1px;
+    cursor: pointer;
+}
+#nav h2:hover, #nav h4:hover {
+    padding: 3px 10px;
+    background-color: black;
+    border-radius: 10px;
+    color: white;
+}
+
+#container {
+    padding: 40px 80px;
+    margin-top: 40px;
+}
+#container h3 {
+    font-size: 25px;
+    font-weight: 600;
+    letter-spacing: -1px;
+}
+#container h1 {
+    margin-top: 20px;
+    font-size: 140px;
+    font-weight: 500;
+    letter-spacing: -11px;
+    line-height: 138px;
+}
+#case-studies {
+    margin: 120px 70px 50px 70px;
+    display: flex;
+    justify-content: space-between;
+}
+#case-studies .fnts {
+    font-size: 22px;
+    font-weight: 600;
+}
+#line {
+    height: 2px;
+    width: 95px;
+    background-color: black;
+}
+#right {
+    width: 15%;
+    display: flex;
+    padding-left: 40px;
+    align-items: center;
+    justify-content: space-between;
+}
+#project {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 40px 70px;
+}
+.elem {
+    width: 50%;
+}
+.elem-image {
+    height: 600px;
+    background-color: gray;
+    width: 100%;
+    border-radius: 30px;
+    background-size: cover;
+}
+#image1 {
+    background-image: url(https://static.vecteezy.com/system/resources/previews/015/096/439/original/gold-diamond-3d-icon-png.png);
+}
+#image2 {
+    background-image: url(https://images.wondershare.com/mockitt/ui-design/dark-ui-facebook.jpg);
+}
+
+.bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0;
+}
+.bottom i {
+    font-size: 20px;
+    border: 2px solid black;
+    padding: 13px 25px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.bottom #black {
+    background-color: black;
+    color: white;
+}
+.bottom i:hover, .bottom #black:hover {
+    background-color: gray;
+    color: white;
+}
+.bottom h2 {
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: -1px;
+}
+.bottom h4 {
+    font-size: 20px;
+    letter-spacing: -1px;
+    font-weight: 500;
+    color: gray;
+}
+
